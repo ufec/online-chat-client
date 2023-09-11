@@ -1,0 +1,21 @@
+@import './variables.less';
+@import './font-family.less';
+@import './reset.less';
+
+.main-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  .header {
+    flex: 0 0 6rem;
+    background-color: #f5f5f5;
+    border-bottom: 0.1rem solid #c9c7c7d7;
+    line-height: 6rem;
+    font-size: larger;
+    padding-left: 2rem;
+    max-height: 6.1rem;
+  }
+  .content {
+    padding: 5rem;
+    flex: 1;
+  }
+}
